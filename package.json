@@ -1,0 +1,32 @@
+{
+  "name": "geohash-helper",
+  "description": "geohash-helper - Library that provides geohash based functions",
+  "version": "0.0.1",
+  "author": "Ghafran Abbas <ghafranabbas@gmail.com>",
+  "homepage": "https://github.com/socialradar/geohash-helper",
+  "repository": "https://github.com/socialradar/geohash-helper",
+  "main": "lib/batch-helper.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "lodash": "~2.3.0"
+  },
+  "devDependencies": {
+    "chai": "~1.8.0",
+    "grunt": "~0.4.1",
+    "grunt-cli": "~0.1.9",
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-simple-mocha": "~0.4.0",
+    "mocha": "~1.13.0",
+    "supertest": "~0.8.0",
+    "grunt-bump": "0.0.11"
+  },
+  "keywords": [
+    "geohash",
+    "helper",
+    "maps",
+    "calculations"
+  ]
+}
