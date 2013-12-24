@@ -4,14 +4,16 @@
   "version": "0.0.1",
   "author": "Ghafran Abbas <ghafranabbas@gmail.com>",
   "homepage": "https://github.com/socialradar/geohash-helper",
-  "repository": "https://github.com/socialradar/geohash-helper",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/socialradar/geohash-helper"
+  },
   "main": "lib/batch-helper.js",
   "scripts": {
     "test": "grunt test"
   },
   "dependencies": {
-    "lodash": "~2.3.0",
-    "validator": "~2.0.0"
+    "lodash": "~2.3.0"
   },
   "devDependencies": {
     "chai": "~1.8.0",
@@ -31,5 +33,12 @@
     "maps",
     "calculations",
     "geo"
-  ]
+  ],
+  "bugs": {
+    "url": "https://github.com/socialradar/geohash-helper/issues"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "license": "BSD-2-Clause"
 }
