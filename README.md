@@ -15,9 +15,11 @@ The code belows shows how to use geohash-helper to do simple encoding and decodi
 
 ```js
 var geohash_helper = require('geohash-helper');
+
 var geohash = geohash_helper.encode(38.12345. -77.98765)
 var lat_lon = geohash_helper.decode(geohash);
-console.log('geohash of ' + lat_lon + ' is ' + geohash);
+
+console.log('geohash of (' + lat_lon.latitude + ', ' + lat_lon.longitude + ') is ' + geohash);
 ```
 
 ## Finding Geohashes Within a Radius
@@ -25,10 +27,8 @@ console.log('geohash of ' + lat_lon + ' is ' + geohash);
 The code belows shows how calculate all the geohashes that are within a radius from a center point:
 
 ```js
-var geohash_helper = require('geohash-helper');
-var geohash = geohash_helper.encode(38.12345. -77.98765)
-var lat_lon = geohash_helper.decode(geohash);
-console.log('geohash of ' + lat_lon + ' is ' + geohash);
+var tbd;
+```
 
 ## Features
 
