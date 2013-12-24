@@ -2,3 +2,18 @@ geohash-helper
 ==============
 
 Library that provides geohash based functions
+
+encode
+decode
+getDistanceFromLatLonInM
+getDistanceFromLatLonInKm
+getRangeBox
+getGeoHashesWithinRadius
+getGeoHashesWithinRadiusRange
+getGeoHashesInRangeBox
+getGeoHashesInRangeBoxRange
+isGeohashWithinRangeBox
+doesGeohashIntersectWithRangeBox
+isPointWithinBox
+getGeoHashBox
+getCenterPointBetweenTwoPoints
