@@ -10,10 +10,12 @@
     "test": "grunt test"
   },
   "dependencies": {
-    "lodash": "~2.3.0"
+    "lodash": "~2.3.0",
+    "validator": "~2.0.0"
   },
   "devDependencies": {
     "chai": "~1.8.0",
+    "chance": "~0.5.3",
     "grunt": "~0.4.1",
     "grunt-cli": "~0.1.9",
     "grunt-contrib-jshint": "~0.6.4",
@@ -27,6 +29,7 @@
     "geohash",
     "helper",
     "maps",
-    "calculations"
+    "calculations",
+    "geo"
   ]
 }
