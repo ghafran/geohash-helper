@@ -32,7 +32,7 @@ describe('helper', function() {
     });
     
     describe('getDistanceFromLatLonInM', function() {
-        it('output > 2400 && output < 2500', function(done){
+        it('getDistanceFromLatLonInM', function(done){
             var output = helper.getDistanceFromLatLonInM(38.895095, -77.036361, 38.890098, -77.008667);
             expect(output).to.be.above(2400);
             expect(output).to.be.below(2500);
@@ -41,10 +41,26 @@ describe('helper', function() {
     });
  
     describe('getDistanceFromLatLonInKm', function() {
-        it('output > 2.4 && output < 2.5', function(done) {
+        it('getDistanceFromLatLonInKm', function(done) {
             var output = helper.getDistanceFromLatLonInKm(38.895095, -77.036361, 38.890098, -77.008667);
             expect(output).to.be.above(2.4);
             expect(output).to.be.below(2.5);
+            done();
+        });
+    });
+    
+    describe('getRangeBox', function() {
+        it('getRangeBox', function(done) {
+            var output = helper.getRangeBox(38.895095, -77.036361, 10);
+            var maxlat = output.MaxLatitude.toString().substring(0, 10);
+            var minlat = output.MinLatitude.toString().substring(0, 10);
+            var maxlon = output.MaxLongitude.toString().substring(0, 10);
+            var minlon = output.MinLongitude.toString().substring(0, 10);
+            
+            expect(maxlat).to.be.equal('38.9850271');
+            expect(minlat).to.be.equal('38.8051628');
+            expect(maxlon).to.be.equal('-76.920811');
+            expect(minlon).to.be.equal('-77.151910');
             done();
         });
     });
