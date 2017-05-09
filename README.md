@@ -1,9 +1,10 @@
+[![Build Status](https://secure.travis-ci.org/ghafran/geohash-helper.png)](http://travis-ci.org/ghafran/geohash-helper)
+[![NSP Status](https://nodesecurity.io/orgs/ghafran/projects/9fc08b6f-9b65-4962-bb50-9dc8377a615b/badge)](https://nodesecurity.io/orgs/ghafran/projects/9fc08b6f-9b65-4962-bb50-9dc8377a615b)
+
 geohash-helper
 ==============
 
 Library that provides geohash based functions
-
-[![Build Status](https://secure.travis-ci.org/ghafran/geohash-helper.png)](http://travis-ci.org/ghafran/geohash-helper)
 
 ## Installation
 
