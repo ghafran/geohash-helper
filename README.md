@@ -3,7 +3,7 @@ geohash-helper
 
 Library that provides geohash based functions
 
-[![Build Status](https://secure.travis-ci.org/socialradar/geohash-helper.png)](http://travis-ci.org/socialradar/geohash-helper)
+[![Build Status](https://secure.travis-ci.org/ghafran/geohash-helper.png)](http://travis-ci.org/ghafran/geohash-helper)
 
 ## Installation
 
@@ -40,7 +40,7 @@ var tbd;
 
 (The MIT License)
 
-Copyright (c) 2013 SocialRadar
+Copyright (c) 2013 ghafran
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the

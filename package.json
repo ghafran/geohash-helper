@@ -1,44 +1,44 @@
 {
-  "name": "geohash-helper",
-  "description": "geohash-helper - Library that provides geohash based functions",
-  "version": "0.0.1",
-  "author": "Ghafran Abbas <ghafranabbas@gmail.com>",
-  "homepage": "https://github.com/socialradar/geohash-helper",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/socialradar/geohash-helper"
-  },
-  "main": "lib/helper.js",
-  "scripts": {
-    "test": "grunt test"
-  },
-  "dependencies": {
-    "lodash": "~2.3.0"
-  },
-  "devDependencies": {
-    "chai": "~1.8.0",
-    "chance": "~0.5.3",
-    "grunt": "~0.4.1",
-    "grunt-cli": "~0.1.9",
-    "grunt-contrib-jshint": "~0.6.4",
-    "grunt-contrib-watch": "~0.5.3",
-    "grunt-simple-mocha": "~0.4.0",
-    "mocha": "~1.13.0",
-    "supertest": "~0.8.0",
-    "grunt-bump": "0.0.11"
-  },
-  "keywords": [
-    "geohash",
-    "helper",
-    "maps",
-    "calculations",
-    "geo"
-  ],
-  "bugs": {
-    "url": "https://github.com/socialradar/geohash-helper/issues"
-  },
-  "directories": {
-    "test": "test"
-  },
-  "license": "BSD-2-Clause"
+    "name": "geohash-helper",
+    "description": "geohash-helper - Library that provides geohash based functions",
+    "version": "0.0.1",
+    "author": "Ghafran Abbas <ghafranabbas@gmail.com>",
+    "homepage": "https://github.com/ghafran/geohash-helper",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ghafran/geohash-helper"
+    },
+    "main": "lib/helper.js",
+    "scripts": {
+        "test": "grunt test"
+    },
+    "dependencies": {
+        "lodash": "~4.17.4"
+    },
+    "devDependencies": {
+        "chai": "~3.5.0",
+        "chance": "~1.0.8",
+        "grunt": "~1.0.1",
+        "grunt-cli": "~1.2.0",
+        "grunt-contrib-jshint": "~1.1.0",
+        "grunt-contrib-watch": "~1.0.0",
+        "grunt-simple-mocha": "~0.4.1",
+        "mocha": "~3.3.0",
+        "supertest": "~3.0.0",
+        "grunt-bump": "0.8.0"
+    },
+    "keywords": [
+        "geohash",
+        "helper",
+        "maps",
+        "calculations",
+        "geo"
+    ],
+    "bugs": {
+        "url": "https://github.com/ghafran/geohash-helper/issues"
+    },
+    "directories": {
+        "test": "test"
+    },
+    "license": "BSD-2-Clause"
 }
