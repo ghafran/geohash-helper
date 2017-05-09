@@ -1,7 +1,7 @@
 {
     "name": "geohash-helper",
     "description": "geohash-helper - Library that provides geohash based functions",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "author": "Ghafran Abbas <ghafranabbas@gmail.com>",
     "homepage": "https://github.com/ghafran/geohash-helper",
     "repository": {
